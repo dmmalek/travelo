@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from '@/component/Global/Header'
+import React from "react";
+import Header from "@/component/Global/Header";
+import Footer from "@/component/Global/Footer";
 
 const index = () => {
   return (
-    <Header/>
-  )
-}
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
+};
 
-export default index
+export default index;
