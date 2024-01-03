@@ -4,7 +4,7 @@ import React from 'react'
 const Menu = ({menuOpen,setMenuOpen}) => {
   return (
     <div className=" ">
-      <ul className="flex align-center gap-[30px]">
+      <ul className="flex items-center gap-[30px]">
         <li className="nav__items" onClick={()=> setMenuOpen(!menuOpen)}>
           <Link href='/' className="text-white" >
             Home
