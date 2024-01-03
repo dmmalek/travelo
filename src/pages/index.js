@@ -4,6 +4,7 @@ import Footer from "@/component/Global/Footer";
 import Hero from "@/component/Home/Hero";
 import Quote from "@/component/Home/Quote";
 import Events from "@/component/Home/Events";
+import Explore from "@/component/Home/Explore";
 
 const index = () => {
   return (
@@ -12,6 +13,7 @@ const index = () => {
       <Hero/>
       <Quote/>
       <Events/>
+      <Explore/>
       <Footer />
       
     </>
