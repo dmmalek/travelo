@@ -6,7 +6,7 @@ const Events = () => {
     <section className="container">
       <h1 className="text-center section__heading">upcoming events</h1>
       <span className="line"></span>
-      <div className=" mt-14 text-center  gap-16 grid grid-cols-2">
+      <div className=" mt-14 text-center  gap-16 grid sm:grid-cols-2 grid-cols-1">
         <div>
           <img
             className="mb-6 h-[350px] object-cover"

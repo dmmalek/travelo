@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutContent = () => {
     return (
-        <div className="grid grid-cols-2 gap-14 section container">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-14 section container">
 
             <div className="pl-4">
                 <h1 className="section__heading">our mission</h1>

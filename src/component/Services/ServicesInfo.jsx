@@ -4,7 +4,7 @@ const ServicesInfo = () => {
     return (
         <div className="py-14 px-0 bg-[#F5F5F5] section">
 
-            <div className="grid gap-4 grid-cols-2 container">
+            <div className="grid  gap-10 grid-cols-1 sm:grid-cols-2 container">
                 <div className="services__info__data">
                     <h2 className="text-xl">Why Outdoor Adventure</h2>
                     <span className="line !my-4 !mx-0 w-16 "></span>

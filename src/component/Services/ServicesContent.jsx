@@ -9,7 +9,7 @@ const ServicesContent = () => {
         Click edit button to change this text. Lorem ipsum dolor sit amet,
         consectetur adipiscing elit. Ut elit tellus, luctus ullamcorpe pulvinar.
       </p>
-      <div className="mt-20 grid gap-10 grid-cols-2">
+      <div className="mt-20 grid gap-10 grid-cols-1 sm:grid-cols-2">
         <div>
           <img className="w-full h-[285px] object-cover"
             src="https://rococo-tartufo-cbea4b.netlify.app/images/home/hiking-1.jpg"
