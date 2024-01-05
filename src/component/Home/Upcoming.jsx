@@ -14,7 +14,7 @@ const Upcoming = () => {
             coepyterunt perveniunt animal! Concordi aurea nabataeaque seductaque
             constaque cepit sublime flexi nullus.
           </p>
-          <Link href="#" className="btn">
+          <Link href="/services" className="btn">
             Learn More
           </Link>
         </div>
