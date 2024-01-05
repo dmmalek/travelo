@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Explore = () => {
   return (
-    <section className=" mt-14 bg-[url('https://rococo-tartufo-cbea4b.netlify.app/static/media/section-bg-img.52ce16c6c2b5cbd71c5c.jpg')] bg-cover bg-no-repeat bg-[#00000099] bg-blend-color py-44 px-0 text-white">
+    <section className=" mt-14 bg-[url('/assets/images/section-bg-img.jpg')] bg-cover bg-no-repeat bg-[#00000099] bg-blend-color py-44 px-0 text-white">
       <div className="container grid grid-cols-1 sm:grid-cols-2">
         <div></div>
         <div>
