@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
-import { headers } from "../../../next.config";
 import Link from "next/link";
-import {AiOutlineClose} from 'react-icons/ai'
-import {GiHamburgerMenu} from 'react-icons/gi'
+import { AiOutlineClose } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +22,10 @@ const Header = () => {
         <>
           <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         </>
-        <div className="sm:hidden cursor-pointer  w-10 h-10 bg-blue-500 text-2xl flex items-center justify-center text-white " onClick={() => setMenuOpen(!menuOpen)}>
+        <div
+          className="sm:hidden cursor-pointer  w-10 h-10 bg-blue-500 text-2xl flex items-center justify-center text-white "
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           {menuOpen ? <AiOutlineClose /> : <GiHamburgerMenu />}
         </div>
       </nav>

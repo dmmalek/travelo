@@ -7,6 +7,7 @@ import Events from "@/component/Home/Events";
 import Explore from "@/component/Home/Explore";
 import Upcoming from "@/component/Home/Upcoming";
 
+
 const index = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const index = () => {
       <Explore/>
       <Upcoming/>
       <Footer />
-      
+
     </>
   );
 };
