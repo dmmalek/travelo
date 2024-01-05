@@ -4,7 +4,7 @@ import { blogData } from "@/Data/blogData";
 
 const Events = () => {
   return (
-    <section className="container">
+    <section className="container section">
       <h1 className="text-center section__heading">upcoming events</h1>
       <span className="line"></span>
       <div className=" mt-14 text-center  gap-16 grid sm:grid-cols-2 grid-cols-1">
@@ -13,17 +13,16 @@ const Events = () => {
           return (
             <div key={index}>
               <img
-                className="mb-6 h-[350px] object-cover"
+                className="mb-6 h-[350px] object-cover w-full"
                 src={img}
                 alt="hiking"
               />
               <div>
                 <h3 className="blog__title">{title}</h3>
-                <p className="blog__description">{description1}</p>
-                <Link
-                  href={`http://localhost:3000/blog/${slug}`}
-                  className="btn"
-                >
+                <p className="blog__description">
+                  {description1.substring(0, 250)}
+                </p>
+                <Link href={`/blogs/${slug}`} className="btn">
                   LEARN MORE
                 </Link>
               </div>

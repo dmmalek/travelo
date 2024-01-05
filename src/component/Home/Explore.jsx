@@ -14,7 +14,7 @@ const Explore = () => {
             concordi. Fert his. Recessit mentes praecipites locum caligine sui
             egens erat. Silvas caeli regna.
           </p>
-          <Link href="#" className="btn">
+          <Link href="/blogs" className="btn">
             LEARN MORE
           </Link>
         </div>

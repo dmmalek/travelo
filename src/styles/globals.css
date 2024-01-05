@@ -2,97 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
---black: #191919;
---white: #ffffff;
---blue: #4175FC;
---red--alt: #084AF3;
+:root {
+  --black: #191919;
+  --white: #ffffff;
+  --blue: #4175fc;
+  --red--alt: #084af3;
 }
 
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  @apply p-0 m-0 box-border;
 }
 
-img{
-    max-width: 100%;
-    display: inline-block;
+img {
+  @apply max-w-full inline-block
+  /* max-width: 100%;
+  display: inline-block; */;
 }
 
-.container{
-    max-width: 1200px;
-    width: calc(100% - 3rem);
-    margin: 0 auto;
-}
-.btn{
-    text-transform: uppercase;
-    padding: 17px 40px;
-    color: white;
-    font-size: 0.875rem;
-    background-color: var(--blue);
-    transition: all 0.3s ease;
-    font-weight: 600;
-    border-radius: 30px;
-    line-height: 1;
-    display: inline-block;
-
+.container {
+  @apply max-w-6xl w-[calc(100%-3rem)] mx-auto;
 }
 
-.btn:hover{
-    background-color: var(--red--alt);
+.btn {
+  @apply uppercase px-10 py-4 text-white bg-blue-500 transition-all duration-300 font-semibold rounded-full leading-none inline-block;
 }
 
-.featured__title{
-    font-size: 4rem;
-    margin-top: 2rem;
-    text-transform: uppercase;
-    color: var(--white);
+.btn:hover {
+  @apply bg-red-500;
 }
 
-footer{
-    margin-top: 100px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 3rem 0;
+.featured__title {
+  @apply text-4xl mt-8 text-white uppercase;
 }
 
-.line{
-    width: 95px;
-    height: 3px;
-    background-color: var(--blue);
-    display: block;
-    margin: 0 auto;
+footer {
+  @apply mt-24 bg-black text-white text-center py-12 px-0;
 }
 
-.section__heading{
-    font-size: 2.125rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--black);
-    margin-bottom: 1.875rem;
+.line {
+  @apply w-24 h-1 bg-blue-500 block mx-auto my-0;
 }
 
-.blog__title{
-    font-size: 18px;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 12px;
+.section__heading {
+  @apply text-4xl font-bold uppercase text-black mb-7;
 }
 
-.blog__description{
-    text-align: center;
-    margin-bottom: 1rem;
+.blog__title {
+  @apply text-lg capitalize text-black mb-3 text-center;
 }
 
-.blog__title{
-    font-size: 18px;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 12px;
+.blog__description {
+  @apply text-center mb-4;
 }
 
-.section{
-    margin-top: 100px;
+.section {
+  @apply mt-24;
 }

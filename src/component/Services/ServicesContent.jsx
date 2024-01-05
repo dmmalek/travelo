@@ -25,10 +25,7 @@ const ServicesContent = () => {
                 <h3 className="blog__title">{title}</h3>
                 <p>{description1.substring(0, 200)}</p>
               </div>
-              <Link
-                href={`http://localhost:3000/blog/${slug}`}
-                className="btn mt-5"
-              >
+              <Link href={`/blogs/${slug}`} className="btn mt-5">
                 LEARN MORE
               </Link>
             </div>

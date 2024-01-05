@@ -3,7 +3,8 @@ import Menu from "./Menu";
 import Link from "next/link";
 import { AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import { Dancing_Script } from "next/font/google";
+const inter = Dancing_Script({ subsets: ["latin"] });
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,10 +13,11 @@ const Header = () => {
       <nav className="flex items-center justify-between relative p-4 w-full h-[80px]">
         <div>
           <Link href="/">
-            <img
-              src="https://rococo-tartufo-cbea4b.netlify.app/images/home/logo.png"
-              alt="logo"
-            />
+            <h2
+              className={`text-5xl uppercase text-white font-bold sm:-mt-5 ${inter.className}`}
+            >
+              Travelo
+            </h2>
           </Link>
         </div>
 
